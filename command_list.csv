@@ -1,0 +1,63 @@
+    1  git config
+    2  git config user.name 'Nataliia A'
+    3  git config user.name='Nataliia A'
+    4  git help
+    5  git help -user.name
+    6  clear
+    7  git config --global user.name 'Nataliia A'
+    8  git config --global user.email 'anv.6264@gmail.com'
+    9  git clone https://github.com/anv6264/HW_10.git 
+   10  ls
+   11  pwd
+   12  cd HW_10
+   13  touch text_ignore.txt
+   14  ls
+   15  type .gitignore
+   16  dir
+   17  cat .gitignore
+   18  printf 'text_ignore.txt\n' >> .gitignore
+   19  git status
+   20  git add.
+   21  git add .
+   22  git status
+   23  cat .gitignore
+   24  pwd
+   25  cd /d/qa/practice/hw10/HW_10/.gitignore
+   26  echo 'text_ignore.txt' >> .gitignore
+   27  git status
+   28  git add .
+   29  git commit -m 'added file text_ignore.txt to .gitignore file'
+   30  git status
+   31  ls
+   32  dir
+   33  cat .gitignore
+   34  touch main_test.txt
+   35  git add .
+   36  git commit -m 'added main_test'
+   37  git status
+   38  dir
+   39  git checkout -b develop
+   40  touch develop_test.txt
+   41  git add .
+   42  git commit -m 'created new branch and file on it'
+   43  git status
+   44  dir
+   45  dir develop
+   46  git checkout main
+   47  dir
+   48  nano .gitignore
+   49  dir
+   50  git status
+   51  git add .gitignore
+   52  git commit -a
+   53  git commit
+   54  git checkout develop
+   55  ls
+   56  nano develop_test.txt
+   57  git status
+   58  git add .
+   59  git commit -m 'changed file develop_test.txt'
+   60  git checkout main
+   61  git merge develop
+   62  git log
+   63  history > command_list.csv
